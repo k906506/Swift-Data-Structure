@@ -30,8 +30,8 @@ queue.enqueue(2)
 queue.enqueue(3)
 print(queue)
 
-print(queue.dequeue()) // 3
-print(queue.dequeue()) // 2
 print(queue.dequeue()) // 1
+print(queue.dequeue()) // 2
+print(queue.dequeue()) // 3
 print(queue.dequeue()) // nli
 print(queue)
