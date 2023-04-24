@@ -52,6 +52,6 @@ queue.enqueue(2)
 queue.enqueue(3)
 print(queue.peek()) // Optional(1)
 print(queue.dequeue()) // Optional(1)
-print(queue.dequeue()) // Optional(1)
-print(queue.dequeue()) // Optional(1)
+print(queue.dequeue()) // Optional(2)
+print(queue.dequeue()) // Optional(3)
 print(queue.dequeue()) // nil
